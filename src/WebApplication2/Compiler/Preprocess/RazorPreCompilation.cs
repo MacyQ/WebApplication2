@@ -10,11 +10,11 @@ namespace WebApplication2.Compiler.Preprocess
     // Pre-compilation may reduce the time it takes to build and launch your project.
     // Please note, in this pre-release of Visual Studio 2015, enabling pre-compilation may cause IntelliSense and build errors in views using Tag Helpers.
 
-    public class RazorPreCompilation : RazorPreCompileModule
-    {
-        public RazorPreCompilation(IServiceProvider provider) : base(provider)
-        {
-            GenerateSymbols = true;
-        }
-    }
+    //public class RazorPreCompilation : RazorPreCompileModule
+    //{
+    //    public RazorPreCompilation(IServiceProvider provider) : base(provider)
+    //    {
+    //        GenerateSymbols = true;
+    //    }
+    //}
 }
